@@ -34,26 +34,71 @@
         </li>
       </ul>
     </header>
+    <!-- 1. El contenedor principal -->
+<div class="container">
+  <!-- 2. Una fila que centra el contenido horizontalmente -->
+  <div class="row justify-content-center">
+    <!-- 3. La columna: en pantallas medianas (md) ocupará 8 de 12 partes -->
+    <div class="col-12 col-md-8">
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/cuatrimestre.jpg" class="d-block w-100" alt="Cuatrimestre" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/regimendecursada.jpg" class="d-block w-100" alt="Régimen de cursada" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/regimendecursadax2.jpg" class="d-block w-100" alt="Régimen de cursada 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/planestudiomecatronica.jpg" class="d-block w-100" alt="Plan mecatrónica" />
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div> <!-- Fin Columna -->
+  </div> <!-- Fin Fila -->
+</div> <!-- Fin Contenedor -->
+
 
     <div class="container p-3">
       <h3>Bienvenidos</h3>
       <hr />
     </div>
-<div class="container p-3">
-  <div class="row align-items-center">
-    <div class="col-auto">
-      <img src="assets/img/logo.png" height="60" alt="logo-instituto">
+    <div class="container p-3">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <img src="assets/img/logo.png" height="60" alt="logo-instituto" />
+        </div>
+        <div class="col">
+          <p class="mb-0">
+            Organismo Descentralizado de la Administración Pública, relacionado
+            con el poder ejecutivo a través del Ministerio de Cultura y
+            Educación de la Provincia de Formosa establecido en el Decreto Nº 18
+            del 2018...
+            <a href="institucional.html">Leer mas...</a>
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <p class="mb-0">
-        Organismo Descentralizado de la Administración Pública, relacionado con
-        el poder ejecutivo a través del Ministerio de Cultura y Educación de la
-        Provincia de Formosa establecido en el Decreto Nº 18 del 2018...
-        <a href="institucional.html">Leer mas...</a>
-      </p>
-    </div>
-  </div>
-</div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
