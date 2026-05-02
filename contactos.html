@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Politécnico Formosa (IPF).</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/contactos.css" />
+  </head>
+  <body>
+    <header class="d-flex align-items-center justify-content-center p-md-5 p-3">
+      <ul
+        class="nav flex-column flex-lg-row justify-content-center align-items-center w-100"
+        style="row-gap: 15px; column-gap: 60px"
+      >
+        <li class="nav-item">
+          <img
+            src="assets/css/img/logo.png"
+            width="180"
+            alt="logo-instituto"
+            class="me-lg-4 mb-3 mb-lg-0"
+          />
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link active fs-4 fw-semibold text-center"
+            aria-current="page"
+            href="index.html"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link fs-4 fw-semibold text-center"
+            href="institucional.html"
+            >Institucional</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 fw-semibold text-center" href="carreras.html"
+            >Carreras</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 fw-semibold text-center" href="contacto.html"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class="container my-5">
+      <div class="row">
+        <!-- COLUMNA IZQUIERDA: FORMULARIO -->
+        <div class="col-md-6 mb-4">
+          <div class="card border-primary h-100 shadow-sm">
+            <div class="card-body p-4">
+              <h3 class="fw-bold mb-4 text-primary">Envianos tu consulta</h3>
+
+              <div class="mb-3">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control border-primary-subtle"
+                  id="inputNombre"
+                  placeholder="Tu nombre completo"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control border-primary-subtle"
+                  id="inputEmail"
+                  placeholder="name@example.com"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="textareaMensaje" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control border-primary-subtle"
+                  id="textareaMensaje"
+                  rows="3"
+                  placeholder="Escribe aquí..."
+                ></textarea>
+              </div>
+
+              <button class="btn btn-secondary w-100 fw-bold">Enviar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMNA DERECHA: CONTACTO -->
+        <div class="col-md-6 mb-4">
+          <div class="card border-primary h-100 shadow-sm bg-light">
+            <div class="card-body p-4">
+              <h3 class="fw-bold mb-4 text-primary">Información de Contacto</h3>
+
+              <p class="fs-5 mt-3">
+                <strong class="text-dark">Ubicación:</strong><br />
+                <span class="text-muted">Ruta Nac. 81 km. 1190 | Formosa</span>
+              </p>
+
+              <hr class="border-primary opacity-25" />
+
+              <p class="fs-5">
+                <strong class="text-dark">Teléfono:</strong><br />
+                <span class="text-muted">+54 370 4860530</span>
+              </p>
+
+              <hr class="border-primary opacity-25" />
+
+              <p class="fs-5">
+                <strong class="text-dark">Email:</strong><br />
+                <span class="text-muted">info@ipf.edu.ar</span>
+              </p>
+
+              <div
+                class="ratio ratio-16x9 border border-primary-subtle rounded overflow-hidden mt-3 shadow-sm"
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.554403447163!2d-58.275183!3d-26.080815299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb17c87292415%3A0x27e4e5e57e514af6!2sPolo%20Cient%C3%ADfico%20Tecnol%C3%B3gico%20y%20de%20Innovaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1777760183232!5m2!1ses-419!2sar"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <details class="text-center">
+          <summary class="fw-semibold text-black">Horario de Atencion</summary>
+          <!-- Sección de Horarios Minimalista -->
+          <div class="mt-4">
+            <div class="d-flex align-items-center mb-2">
+              <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3">
+                <i class="bi bi-clock-fill text-primary"></i>
+              </div>
+            </div>
+
+            <div class="ms-5">
+              <p class="mb-1 text-black">
+                <strong>Mañana:</strong> 08:00 a 12:00 hs
+              </p>
+              <p class="mb-0 text-black">
+                <strong>Tarde:</strong> 16:00 a 20:00 hs
+              </p>
+              <small class="text-black">Lunes a Viernes</small>
+            </div>
+          </div>
+        </details>
+      </div>
+    </main>
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <!-- Columna 1: Logo y Descripción -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">
+              IPF
+            </h5>
+            <p>
+              Instituto Politécnico Formosa: Formando profesionales para el
+              desarrollo tecnológico y la innovación regional.
+            </p>
+          </div>
+
+          <!-- Columna 2: Enlaces Rápidos -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">
+              Secciones
+            </h5>
+            <p>
+              <a href="index.html" class="text-white text-decoration-none"
+                >Inicio</a
+              >
+            </p>
+            <p>
+              <a
+                href="institucional.html"
+                class="text-white text-decoration-none"
+                >Institucional</a
+              >
+            </p>
+            <p>
+              <a href="carreras.html" class="text-white text-decoration-none"
+                >Carreras</a
+              >
+            </p>
+            <p>
+              <a href="contacto.html" class="text-white text-decoration-none"
+                >Contacto</a
+              >
+            </p>
+          </div>
+
+          <!-- Columna 3: Contacto -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">
+              Contacto
+            </h5>
+            <p>Ruta Nac. 81 km. 1190, Formosa</p>
+            <p>info@ipf.edu.ar</p>
+            <p>+54 370 4860530</p>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <!-- Copyright -->
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              © 2026 Todos los derechos reservados por:
+              <a
+                href="https://www.ipf.edu.ar/"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <strong class="text-primary"
+                  >Instituto Politécnico Formosa</strong
+                >
+              </a>
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <p class="text-md-end text-center">
+              Desarrollado por Luciana Menotti
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
