@@ -1,0 +1,11 @@
+/* Esto afecta al contenedor del detalle */
+#info {
+    width: 100%; /* Que ocupe todo el ancho de su columna */
+}
+
+/* Esto afecta a la tarjeta que aparece al abrir */
+#info .card {
+    min-width: 500px;  /* Ajustá este número a lo ancho que quieras */
+    min-height: 350px; /* Ajustá este número a lo largo que quieras */
+    transition: all 0.3s ease; /* Para que se abra suave */
+}
