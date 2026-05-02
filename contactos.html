@@ -56,61 +56,89 @@
     </header>
     <main class="container my-5">
       <div class="row">
-        <!-- COLUMNA IZQUIERDA: FORMULARIO (Ocupa 6 de 12 espacios) -->
+        <!-- COLUMNA IZQUIERDA: FORMULARIO -->
         <div class="col-md-6 mb-4">
-          <h3 class="fw-bold mb-4">Envianos tu consulta</h3>
+          <!-- Agregamos la clase card y border-primary (azul) -->
+          <div class="card border-primary h-100 shadow-sm">
+            <div class="card-body p-4">
+              <h3 class="fw-bold mb-4 text-primary">Envianos tu consulta</h3>
 
-          <div class="mb-3">
-            <label for="inputNombre" class="form-label">Nombre</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputNombre"
-              placeholder="Tu nombre completo"
-            />
-          </div>
+              <div class="mb-3">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control border-primary-subtle"
+                  id="inputNombre"
+                  placeholder="Tu nombre completo"
+                />
+              </div>
 
-          <div class="mb-3">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail"
-              placeholder="name@example.com"
-            />
-          </div>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control border-primary-subtle"
+                  id="inputEmail"
+                  placeholder="name@example.com"
+                />
+              </div>
 
-          <div class="mb-3">
-            <label for="textareaMensaje" class="form-label">Consulta</label>
-            <textarea
-              class="form-control"
-              id="textareaMensaje"
-              rows="3"
-              placeholder="Escribe aquí..."
-            ></textarea>
-          </div>
+              <div class="mb-3">
+                <label for="textareaMensaje" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control border-primary-subtle"
+                  id="textareaMensaje"
+                  rows="3"
+                  placeholder="Escribe aquí..."
+                ></textarea>
+              </div>
 
-          <button class="btn btn-secondary w-100">Enviar</button>
-        </div>
-
-        <!-- COLUMNA DERECHA: CONTACTO (Ocupa los otros 6 espacios) -->
-        <div class="col-md-6 ps-md-5">
-          <h3 class="fw-bold mb-4">Información de Contacto</h3>
-          <div class="card border-0 bg-light p-4">
-            <p class="fs-5">
-              <strong>Ubicación:</strong><br />
-              Dirección: Ruta Nac. 81 km. 1190 | Formosa
-            </p>
-            <p class="fs-5">
-              <strong>Teléfono:</strong><br />
-              +54 370 4860530
-            </p>
-            <p class="fs-5">
-              <strong>Email:</strong><br />
-              info@ipf.edu.ar
-            </p>
+              <button class="btn btn-secondary w-100 fw-bold">Enviar</button>
+            </div>
           </div>
         </div>
+
+        <!-- COLUMNA DERECHA: CONTACTO -->
+        <div class="col-md-6 mb-4">
+          <!-- Usamos la misma estructura card con borde azul -->
+          <div class="card border-primary h-100 shadow-sm bg-light">
+            <div class="card-body p-4">
+              <h3 class="fw-bold mb-4 text-primary">Información de Contacto</h3>
+
+              <p class="fs-5 mt-3">
+                <strong class="text-dark">Ubicación:</strong><br />
+                <span class="text-muted">Ruta Nac. 81 km. 1190 | Formosa</span>
+              </p>
+
+              <hr class="border-primary opacity-25" />
+              <!-- Línea divisoria azul suave -->
+
+              <p class="fs-5">
+                <strong class="text-dark">Teléfono:</strong><br />
+                <span class="text-muted">+54 370 4860530</span>
+              </p>
+
+              <hr class="border-primary opacity-25" />
+
+              <p class="fs-5">
+                <strong class="text-dark">Email:</strong><br />
+                <span class="text-muted">info@ipf.edu.ar</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ratio ratio-16x9 border border-primary rounded overflow-hidden mt-3 shadow-sm"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.554403447163!2d-58.275183!3d-26.080815299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb17c87292415%3A0x27e4e5e57e514af6!2sPolo%20Cient%C3%ADfico%20Tecnol%C3%B3gico%20y%20de%20Innovaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1777760183232!5m2!1ses-419!2sar"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
       </div>
     </main>
     <footer class="bg-dark text-white pt-5 pb-4 mt-5">
