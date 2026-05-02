@@ -10,7 +10,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/carreras.css" />
+    <link rel="stylesheet" href="assets/css/contactos.css" />
   </head>
   <body>
     <header class="d-flex align-items-center justify-content-center p-md-5 p-3">
@@ -54,7 +54,65 @@
         </li>
       </ul>
     </header>
-    <main></main>
+    <main class="container my-5">
+      <div class="row">
+        <!-- COLUMNA IZQUIERDA: FORMULARIO (Ocupa 6 de 12 espacios) -->
+        <div class="col-md-6 mb-4">
+          <h3 class="fw-bold mb-4">Envianos tu consulta</h3>
+
+          <div class="mb-3">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNombre"
+              placeholder="Tu nombre completo"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="textareaMensaje" class="form-label">Consulta</label>
+            <textarea
+              class="form-control"
+              id="textareaMensaje"
+              rows="3"
+              placeholder="Escribe aquí..."
+            ></textarea>
+          </div>
+
+          <button class="btn btn-secondary w-100">Enviar</button>
+        </div>
+
+        <!-- COLUMNA DERECHA: CONTACTO (Ocupa los otros 6 espacios) -->
+        <div class="col-md-6 ps-md-5">
+          <h3 class="fw-bold mb-4">Información de Contacto</h3>
+          <div class="card border-0 bg-light p-4">
+            <p class="fs-5">
+              <strong>Ubicación:</strong><br />
+              Dirección: Ruta Nac. 81 km. 1190 | Formosa
+            </p>
+            <p class="fs-5">
+              <strong>Teléfono:</strong><br />
+              +54 370 4860530
+            </p>
+            <p class="fs-5">
+              <strong>Email:</strong><br />
+              info@ipf.edu.ar
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer class="bg-dark text-white pt-5 pb-4 mt-5">
       <div class="container text-center text-md-start">
         <div class="row text-center text-md-start">
